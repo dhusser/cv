@@ -1,0 +1,20 @@
+{
+  "name":"skill",
+  "items": [
+    {"classList":["skills-item", "icon", "icon-html"], "text": " HTML"},
+    {"classList":["skills-item", "icon", "icon-css"], "text": " CSS"},
+    {"classList":["skills-item", "icon", "icon-php"], "text": " PHP"},
+    {"classList":["skills-item", "icon", "icon-js"], "text": " JavaScript"},
+    {"classList":["skills-item", "icon", "icon-nodejs"], "text": " NODE.js"},
+    {"classList":["skills-item", "icon", "icon-react"], "text": " React"},
+    {"classList":["skills-item", "icon", "icon-py"], "text": " Python"},
+    {"classList":["skills-item", "icon", "icon-git"], "text": " Git"},
+    {"classList":["skills-item", "icon", "icon-gh"], "text": " GitHub"},
+    {"classList":["skills-item", "icon", "icon-linterminal"], "text": " Linux terminal"},
+    {"classList":["skills-item", "icon", "icon-pshell"], "text": " PowerShell"},
+    {"classList":["skills-item", "icon", "icon-docker"], "text": " Docker"},
+    {"classList":["skills-item", "icon", "icon-figma"], "text": " Figma"}
+  ]
+}
+
+

@@ -1,0 +1,8 @@
+{
+  "name":"lang",
+  "items": [
+    {"classList":["lang-item", "icon", "icon-lang"], "text": " Russian - native"},
+    {"classList":["lang-item", "icon", "icon-lang"], "text": " English - B1 (studying B2)"},
+    {"classList":["lang-item", "icon", "icon-lang"], "text": " German - B1 (B2 lernen)"}
+  ]
+}
