@@ -1,0 +1,115 @@
+@import "./lib/smart-grid.less";
+@import "../debug/debug.less";
+@import "./constants.less";
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: @color_html;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: @color_first;
+}
+
+.header,
+.main,
+.footer {
+    .wrapper();
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.section__title {
+    padding-top: 25px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 3px solid @color_first;
+}
+
+.content__text {
+    padding: 25px 25px 25px 50px;
+}
+
+@import "./menu.less";
+@import "./about.less";
+@import "./lib/icons.less";
+@import "./middle.less";
+@import "./footer.less";
+
+/* OTHER */
+/* list */
+
+.quailities-list,
+.skill-list,
+.lang-list {
+    color: @color_html;
+}
+
+.dt-contacts {
+    font-size: 700;
+}
+
+/* tables */
+.table {
+    font-family: 'Lato', sans-serif;
+
+    &__title {
+        vertical-align: top;
+    }
+
+    &__description {
+        // margin-left: 0;
+    }
+}
+
+.icon {
+    color: @color_html;
+    transition: 0.5s;
+
+    &:hover {
+        color: @color_second;
+        transition: 0.5s;
+    }
+}

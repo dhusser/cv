@@ -1,10 +1,9 @@
 {
   "name":"nav",
   "items": [
+    {"link":"#projects", "text": "Projects"},
     {"link":"#work", "text": "Work experience"},
     {"link":"#education", "text": "Education"},
-    {"link":"#courses", "text": "Courses"},
-    {"link":"#code", "text": "Code"},
     {"link":"#contacts", "text": "Contacts"},
     {"link":"#skills", "text": "Skills"}
   ]

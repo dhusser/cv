@@ -8,7 +8,7 @@ async function getJson(url) {
 function createElementWithClass(tag, classList) {
   let newElement = document.createElement(tag)
   
-    for (className of classList) {
+    for (let className of classList) {
       newElement.classList.add(className)
     }
 
@@ -18,7 +18,7 @@ function createElementWithClass(tag, classList) {
 function createList(ulName, items) {
   const newList = createElementWithClass('ul', [`${ulName}-list`])
   
-  for (item of items) {
+  for (let item of items) {
     const newItem = createElementWithClass('li', item.classList)
     newItem.textContent = item.text
     newList.append(newItem)
@@ -30,7 +30,7 @@ function createList(ulName, items) {
 function createListWithlink(ulName, items) {
   const newList = createElementWithClass('ul', [`${ulName}-list`])
   
-  for (item of items) {
+  for (let item of items) {
     const newItem = createElementWithClass('li', [`${ulName}-item`])
     const link = createElementWithClass('a', [`${ulName}-link`])
     link.textContent = item.text
@@ -42,22 +42,4 @@ function createListWithlink(ulName, items) {
   return newList
 }
 
-// add menu items
-getJson('../assets/json/menu.json').then(response => {
-  const hardSkillsList = document.querySelector('.nav')
-  hardSkillsList.append(createListWithlink(response.name, response.items))
-
-})
-
-// add Hard skills
-getJson('../assets/json/hard-skills.json').then(response => {
-  const hardSkillsList = document.querySelector('.hard-skills')
-  hardSkillsList.append(createList(response.name, response.items))
-
-})
-
-// add Language skills
-getJson('../assets/json/language-skills.json').then(response => {
-  const hardSkillsList = document.querySelector('.language-skills')
-  hardSkillsList.append(createList(response.name, response.items))
-})
+export {getJson, createElementWithClass, createList, createListWithlink}

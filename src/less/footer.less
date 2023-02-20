@@ -1,0 +1,41 @@
+@import "./constants.less";
+
+.container {
+  .row-flex();
+  justify-content: center;
+  align-items: center;
+  background-color: @color_second;
+
+  .links {
+    .col-padding();
+    .size(4);
+    .size-md(4);
+    .size-sm(4);
+    .size-xs(12);
+    
+    .link {
+      color: @color_first;
+      font-size: 30px;
+      transition: 0.5s;
+    
+      &:hover {
+        color: @color_third;
+        transition: 0.5s;
+      }
+    }
+  }
+  .copyright {
+    .col-padding();
+    .size(4);
+    .size-md(4);
+    .size-sm(4);
+    .size-xs(12);
+  }
+  .projects {
+    .col-padding();
+    .size(4);
+    .size-md(4);
+    .size-sm(4);
+    .size-xs(12);
+  }
+}
