@@ -1,10 +1,26 @@
 {
-  "name":"nav",
-  "items": [
+  "name":"menu",
+  "items": {
+    "en": [
     {"link":"#projects", "text": "Projects"},
     {"link":"#work", "text": "Work experience"},
     {"link":"#education", "text": "Education"},
     {"link":"#contacts", "text": "Contacts"},
     {"link":"#skills", "text": "Skills"}
+  ],
+    "de": [
+    {"link":"#projects", "text": "Projekte"},
+    {"link":"#work", "text": "Berufserfahrung"},
+    {"link":"#education", "text": "Bildung"},
+    {"link":"#contacts", "text": "Kontakte"},
+    {"link":"#skills", "text": "Fähigkeiten"}
+  ],
+    "ru": [
+    {"link":"#projects", "text": "Проекты"},
+    {"link":"#work", "text": "Опыт работы"},
+    {"link":"#education", "text": "Образование"},
+    {"link":"#contacts", "text": "Контакты"},
+    {"link":"#skills", "text": "Навыки"}
   ]
+}
 }

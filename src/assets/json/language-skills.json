@@ -1,8 +1,20 @@
 {
   "name":"lang",
-  "items": [
+  "items": {
+    "en" :[
     {"classList":["lang-item", "icon", "icon-lang"], "text": " Russian - native"},
-    {"classList":["lang-item", "icon", "icon-lang"], "text": " English - B1 (studying B2)"},
-    {"classList":["lang-item", "icon", "icon-lang"], "text": " German - B1 (B2 lernen)"}
+    {"classList":["lang-item", "icon", "icon-lang"], "text": " English - B1 (Intermediate)"},
+    {"classList":["lang-item", "icon", "icon-lang"], "text": " German - B1 (Intermediate)"}
+  ],
+    "de" :[
+    {"classList":["lang-item", "icon", "icon-lang"], "text": " Russisch - Muttersprache"},
+    {"classList":["lang-item", "icon", "icon-lang"], "text": " Englisch - B1 (Intermediate)"},
+    {"classList":["lang-item", "icon", "icon-lang"], "text": " Deutsch - B1 (Intermediate)"}
+  ],
+    "ru" :[
+    {"classList":["lang-item", "icon", "icon-lang"], "text": " Русский - родной язык"},
+    {"classList":["lang-item", "icon", "icon-lang"], "text": " Английский - B1 (Intermediate)"},
+    {"classList":["lang-item", "icon", "icon-lang"], "text": " Немецкий - B1 (Intermediate)"}
   ]
+}
 }

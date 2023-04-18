@@ -1,8 +1,8 @@
 module.exports = {
   // mode: isDev ? 'development' : 'production',
-  mode: 'development',
+  mode: 'production',
   // devtool: isDev ? 'eval-source-map' : 'none',
-  devtool: 'eval-source-map',
+  // devtool: 'eval-source-map',
   output: {
     filename: 'main.min.js'
   },

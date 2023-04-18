@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../assets/font/fontello.eot?74350668');
-  src: url('../assets/font/fontello.eot?74350668#iefix') format('embedded-opentype'),
-      url('../assets/font/fontello.woff2?74350668') format('woff2'),
-      url('../assets/font/fontello.woff?74350668') format('woff'),
-      url('../assets/font/fontello.ttf?74350668') format('truetype'),
-      url('../assets/font/fontello.svg?74350668#fontello') format('svg');
+  src: url('./assets/font/fontello.eot?74350668');
+  src: url('./assets/font/fontello.eot?74350668#iefix') format('embedded-opentype'),
+    url('./assets/font/fontello.woff2?74350668') format('woff2'),
+    url('./assets/font/fontello.woff?74350668') format('woff'),
+    url('./assets/font/fontello.ttf?74350668') format('truetype'),
+    url('./assets/font/fontello.svg?74350668#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,187 +30,107 @@
 .icon-docker::before,
 .icon-figma::before,
 .icon-lang::before {
-    font-family: 'fontello';
+  font-family: 'fontello';
+}
+
+.icon {
+  color: @color_html;
+  transition: all 0.5s linear;
+
+  &:hover {
+    color: @color_second;
+
+    &::before {
+      font-weight: 700;
+    }
+  }
 }
 
 .icon-phone::before {
-    content: '\e995';
-}
-
-.icon-phone:hover::before {
-    content: '\e994';
+  content: '\e995';
 }
 
 .icon-mail::before {
-    content: '\e8ed';
-}
-
-.icon-mail:hover::before {
-    content: '\f0e0';
+  content: '\e8ed';
 }
 
 .icon-github::before {
-    content: '\e98e';
-    color: #000000;
+  content: '\e98e';
+  color: #000000;
 }
 
 .icon-github:hover::before {
-    content: '\e99d';
-    color: #ffffff;
-    border: 50px;
-    border-radius: 50%;
-    box-shadow: 0 0 30px #FFFFFF;
+  content: '\e99d';
+  color: #ffffff;
+  border: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #FFFFFF;
 }
 
 .icon-wapp::before {
-    content: '\e9a4';
-}
-
-.icon-wapp:hover::before {
-    content: '\e9a4';
-    font-weight: 700;
+  content: '\e9a4';
 }
 
 .icon-telegram::before {
-    content: '\f2c6';
-}
-
-.icon-telegram:hover::before {
-    content: '\f2c6';
-    font-weight: 700;
+  content: '\f2c6';
 }
 
 .icon-html::before {
-    content: '\e99e';
-}
-
-.icon-html:hover::before {
-    content: '\e99e';
-    font-weight: 700;
+  content: '\e99e';
 }
 
 .icon-css::before {
-    content: '\e99a';
-}
-
-.icon-css:hover::before {
-    content: '\e99a';
-    font-weight: 700;
+  content: '\e99a';
 }
 
 .icon-php::before {
-    content: '\f1c4';
-}
-
-.icon-php:hover::before {
-    content: '\f1c4';
-    font-weight: 700;
+  content: '\f1c4';
 }
 
 .icon-js::before {
-    content: '\e99f';
-}
-
-.icon-js:hover::before {
-    content: '\e99f';
-    font-weight: 700;
+  content: '\e99f';
 }
 
 .icon-nodejs::before {
-    content: '\e9a0';
-}
-
-.icon-nodejs:hover::before {
-    content: '\e9a0';
-    font-weight: 700;
+  content: '\e9a0';
 }
 
 .icon-react::before {
-    content: '\e9a2';
-}
-
-.icon-react::before {
-    content: '\e9a2';
-    font-weight: 700;
+  content: '\e9a2';
 }
 
 .icon-py::before {
-    content: '\e9a1';
-}
-
-.icon-py:hover::before {
-    content: '\e9a1';
-    font-weight: 700;
+  content: '\e9a1';
 }
 
 .icon-git::before {
-    content: '\e996';
-}
-
-.icon-git:hover::before {
-    content: '\e996';
-    font-weight: 700;
+  content: '\e996';
 }
 
 .icon-gh::before {
-    content: '\f09b';
-}
-
-.icon-gh:hover::before {
-    content: '\f09b';
-    font-weight: 700;
+  content: '\f09b';
 }
 
 .icon-linterminal::before {
-    content: '\f17c';
-}
-
-.icon-linterminal:hover::before {
-    content: '\f17c';
-    font-weight: 700;
+  content: '\f17c';
 }
 
 .icon-pshell::before {
-    content: '\f120';
-}
-
-.icon-pshell:hover::before {
-    content: '\f120';
-    font-weight: 700;
+  content: '\f120';
 }
 
 .icon-docker::before {
-    content: '\e99b';
-}
-
-.icon-docker:hover::before {
-    content: '\e99b';
-    font-weight: 700;
+  content: '\e99b';
 }
 
 .icon-figma::before {
-    content: '\e99c';
-}
-
-.icon-figma:hover::before {
-    content: '\e99c';
-    font-weight: 700;
+  content: '\e99c';
 }
 
 .icon-w3c::before {
-    content: '\e80c';
-}
-
-.icon-w3c:hover::before {
-    content: '\e80c';
-    font-weight: 700;
+  content: '\e80c';
 }
 
 .icon-lang::before {
-    content: '\f1ab';
-}
-
-.icon-lang:hover::before {
-    content: '\f1ab';
-    font-weight: 700;
+  content: '\f1ab';
 }

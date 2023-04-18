@@ -1,0 +1,160 @@
+@import "../less/constants.less";
+
+.header {
+  padding: 16px clamp(16px, 2.08333333333333vw, 40px);
+  width: 100%;
+  background-color: @color_first;
+
+  .for-print({
+    display: none;
+  });
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.language__current,
+.language__select {
+  height: 30px;
+}
+
+.language__select {
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: @color_first;
+  color: @color_third;
+
+}
+
+.menu {
+  position: fixed;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, .4);
+  opacity: 0;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  transform: translateX(-200%);
+  transition: all 0.5s linear;
+
+  .for-tablet-landscape-up({
+    position: static;
+    opacity: 1;
+    height: auto;
+    background: none;
+    transform: translateX(0);
+    padding: 0;
+  });
+
+&.active {
+  width: 100vw;
+  height: 100vh;
+  transform: translateX(0);
+  opacity: 1;
+  .for-tablet-landscape-up({
+    width: auto;
+    height: auto;
+  });
+}
+}
+
+.menu-list {
+  display: flex;
+  flex-flow: row wrap;
+  background: @color_first;
+  padding: 40px;
+  gap: 20px;
+  border-radius: 8px;
+
+  .for-tablet-landscape-up({
+    background: none;
+    padding: 0;
+    gap: 0;
+    border-radius: 0;
+    justify-content: flex-end;
+  });
+}
+
+.menu-item {
+  .menu-link {
+    padding: 10px 20px;
+    line-height: 15px;
+    color: @color_third;
+    transition: color 0.5s linear;
+
+    &:hover {
+      color: @color_second;
+    }
+  }
+}
+
+.menu-btn {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 30px;
+  gap: 5px;
+
+  .for-tablet-landscape-up({
+    display: none;
+  });
+
+span {
+  height: 2px;
+  transform: translate(-50%, -50%);
+  background-color: @color_third;
+  transition: all 0.5s;
+}
+
+&.active {
+  position: fixed;
+  right: clamp(16px, 2.08333333333333vw, 40px);
+
+  span {
+    background-color: @color_second;
+
+    &:nth-of-type(1) {
+      transform: rotate(45deg);
+      transform-origin: 15% 15%;
+    }
+
+    &:nth-of-type(2) {
+      opacity: 0;
+    }
+
+    &:nth-of-type(3) {
+      transform: rotate(-45deg);
+      transform-origin: 15% 95%;
+    }
+  }
+}
+}
+
+.print {
+  height: 30px;
+  width: 40px;
+  background: url(assets/svg/print.svg) no-repeat;
+  background-size: 60%;
+  background-position: center;
+  border-radius: 4px;
+  margin-left: 30px;
+  flex-shrink: 0;
+  padding: 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

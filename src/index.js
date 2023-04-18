@@ -1,2 +1,5 @@
 import './js/functions'
 import './js/script'
+import './js/burgermenu'
+import './js/dragscroll'
+import './js/project-preview'

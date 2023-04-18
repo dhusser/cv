@@ -1,0 +1,78 @@
+{
+  "title": {
+    "en": "projects",
+    "de": "projekte",
+    "ru": "проекты"
+  },
+  "content": [{
+      "preview": "assets/webm/project-husser.webm",
+      "title": {
+        "en": "Ekaterina Husser - official website",
+        "de": "Ekaterina Husser - offizielle Webseite",
+        "ru": "Ekaterina Husser - официальный сайт"
+      },
+      "description": {
+        "en": "Single-page application (SPA) developed using HTML, CSS (SCSS), and JavaScript without any frameworks or libraries. Webpack used for project bundling. All pages are indexed through GET requests, and a sitemap file is automatically generated using Node.js. This enhances efficient indexing and improves SEO performance of the project. The full development cycle has been completed, including implementation of functionality and thorough testing.",
+        "de": "Ein Single-Page-Application (SPA), entwickelt ohne Verwendung von Frameworks oder Bibliotheken, mit HTML, CSS (SCSS) und JavaScript, und Webpack zur Projekt-Bündelung. Eine Besonderheit des Projekts ist die Indexierung aller Anwendungsseiten über GET-Anfragen sowie die automatische Generierung einer Sitemap-Datei unter Verwendung von Node.js. Dies trägt zu einer effizienten Indexierung des SPAs und zur Verbesserung der SEO-Leistung des Projekts bei. Der vollständige Entwicklungszyklus wurde abgeschlossen, einschließlich der Implementierung der Funktionalität und umfassenden Tests.",
+        "ru": "Одностраничное приложение (SPA) без использования фреймворков или библиотек, разработанное на HTML, CSS (SCSS) и JavaScript с использованием Webpack для сборки проекта. Одной из особенностей проекта является индексация всех страниц приложения через GET-запросы, а также автоматическая генерация файла sitemap с использованием Node.js. Это способствует эффективному индексированию SPA и улучшению SEO-показателей проекта. Выполнен полный цикл разработки, включая реализацию функциональности и проведение тестирования."
+      },
+      "link": "husser.ru"
+    },
+    {
+      "preview": "assets/webm/project-evolwe.webm",
+      "title": {
+        "en": "Evolwe - official website",
+        "de": "Evolwe - offizielle Webseite",
+        "ru": "Evolwe - официальный сайт"
+      },
+      "description": {
+        "en": "A multi-page website built on the WordPress platform using HTML, CSS (LESS), JavaScript, and PHP. The GSAP framework is used for implementing animations, and WordPress serves as the content management system (CMS). Gulp and Webpack are used as build tools. The Carbon Fields plugin is used for creating custom fields, and the Contact Form 7 plugin is used for implementing contact forms. The website features a user-friendly administrative panel that allows for flexible content management and provides control over the website's content.",
+        "de": "Eine mehrseitige Website, die auf der WordPress-Plattform mit HTML, CSS (LESS), JavaScript und PHP entwickelt wurde. Das GSAP-Framework wird für die Implementierung von Animationen verwendet und WordPress dient als Content-Management-System (CMS). Gulp und Webpack werden als Build-Tools verwendet. Das Carbon Fields-Plugin wird für die Erstellung von benutzerdefinierten Feldern verwendet und das Contact Form 7-Plugin für die Implementierung von Kontaktformularen. Die Website verfügt über ein benutzerfreundliches Administrationspanel, das eine flexible Inhaltsverwaltung ermöglicht und die Kontrolle über den Inhalt der Website bietet.",
+        "ru": "Многостраничный сайт на платформе WordPress с использованием HTML, CSS (LESS), JavaScript и PHP. Для реализации анимаций используется фреймворк GSAP, а в качестве системы управления контентом (CMS) - WordPress. Используются инструменты Gulp и Webpack для сборки. Применяется плагин Carbon Fields для создания кастомных полей и плагин Contact Form 7 для реализации форм обратной связи. Сайт обладает удобной административной панелью, позволяющей гибко управлять контентом и обеспечивающей контроль над содержимым сайта."
+      },
+      "link": "evolwe.ai"
+    },
+    {
+      "preview": "assets/webm/project-kem-expert.webm",
+      "title": {
+        "en": "Center for Independent Examination and Law",
+        "de": "Zentrum für Unabhängige Prüfung und Recht",
+        "ru": "Центр независимой экспертизы и права"
+      },
+      "description": {
+        "en": "A multi-page website has been developed using HTML, CSS, JavaScript, PHP, and MySQL. Bootstrap framework was used for responsive and flexible web design. The website has been optimized for search engines (SEO) to improve its visibility in search results. The full development cycle has been completed, including implementation of functionality and thorough testing.",
+        "de": "Eine mehrseitige Website wurde entwickelt, die HTML, CSS, JavaScript, PHP und MySQL verwendet. Das Bootstrap-Framework wurde für responsives und flexibles Webdesign verwendet. Die Website wurde für Suchmaschinen (SEO) optimiert, um ihre Sichtbarkeit in den Suchergebnissen zu verbessern. Der vollständige Entwicklungszyklus wurde abgeschlossen, einschließlich der Implementierung der Funktionalität und umfassenden Tests.",
+        "ru": "Многостраничный сайт, разработанный с использованием HTML, CSS, JavaScript, PHP и MySQL. Для верстки используется фреймворк Bootstrap, обеспечивающий гибкую и отзывчивую вёрстку. Была проведена оптимизация сайта для поисковых систем (SEO), с целью повышения его видимости в поиске. Выполнен полный цикл разработки, включая реализацию функциональности и проведение тестирования."
+      },
+      "link": "kem-expert.ru"
+    },
+    {
+      "preview": "assets/webm/project-device.webm",
+      "title": {
+        "en": "\"Device\" service center",
+        "de": "Kundenservice \"Device\"",
+        "ru": "Сервисный центр \"Device\""
+      },
+      "description": {
+        "en": "A multi-page website has been created using HTML, CSS, JavaScript, and PHP, with Joomla serving as the content management system (CMS) providing a user-friendly administrative panel for managing all website content. The website has been optimized for search engines (SEO) to improve its visibility in search results. The full development cycle has been completed, including implementation of functionality and thorough testing.",
+        "de": "Eine mehrseitige Website wurde mit HTML, CSS, JavaScript und PHP erstellt und verwendet Joomla als Content-Management-System (CMS), das eine benutzerfreundliche Administrationsanwendung zur Verwaltung aller Website-Inhalte bietet. Die Website wurde für Suchmaschinen (SEO) optimiert, um ihre Sichtbarkeit in den Suchergebnissen zu verbessern. Der vollständige Entwicklungszyklus wurde abgeschlossen, einschließlich der Implementierung der Funktionalität und umfassenden Tests.",
+        "ru": "Многостраничный сайт на платформе Joomla, созданный с использованием HTML, CSS, JavaScript и PHP. Joomla используется в качестве системы управления контентом (CMS), предоставляющей удобную административную панель для управления всем контентом на сайте. Была выполнена оптимизация сайта для поисковых систем (SEO) с целью повышения его видимости в результатах поиска. Выполнен полный цикл разработки, включая реализацию функциональности и проведение тестирования."
+      },
+      "link": "devicerussia.ru"
+    },
+    {
+      "preview": "assets/webm/project-kemexpert.webm",
+      "title": {
+        "en": "Kemexpert - independent expertise",
+        "de": "Kemexpert - unabhängige Prüfung",
+        "ru": "Кемэксперт - независимая экспертиза"
+      },
+      "description": {
+        "en": "A multi-page website has been developed using HTML, CSS, JavaScript (jQuery), PHP, and MySQL, with Bootstrap integrated for responsive web design. The website has undergone SEO optimization to improve its visibility in search results. The full development cycle has been completed, including implementation of functionality, integration with a database, and thorough testing. The project results include improved user experience, increased website traffic, and higher rankings in search engines.",
+        "de": "Eine mehrseitige Website wurde mit HTML, CSS, JavaScript (jQuery), PHP und MySQL entwickelt, wobei Bootstrap für die Umsetzung des responsiven Webdesigns integriert wurde. Die Website wurde für Suchmaschinen (SEO) optimiert, um ihre Sichtbarkeit in den Suchergebnissen zu verbessern. Der vollständige Entwicklungszyklus wurde abgeschlossen, einschließlich der Implementierung der Funktionalität, der Integration mit einer Datenbank und umfassenden Tests. Die Ergebnisse des Projekts umfassen eine verbesserte Benutzererfahrung, erhöhten Website-Verkehr und höhere Rankings in Suchmaschinen.",
+        "ru": "Разработка многостраничного веб-сайта с использованием HTML, CSS, JavaScript (jQuery), PHP и MySQL, с внедрением Bootstrap для реализации адаптивной вёрстки. Была проведена SEO-оптимизация сайта для повышения его поисковой видимости. Выполнен полный цикл разработки, включая реализацию функциональности, интеграцию с базой данных и проведение тестирования. Результаты проекта включают улучшение пользовательского опыта, увеличение посещаемости сайта и увеличение его рейтинга в поисковых системах."
+      },
+      "link": "kemexpert.ru"
+    }
+  ]
+}

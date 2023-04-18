@@ -1,0 +1,51 @@
+{
+  "title": {
+    "en": "Education",
+    "de": "Bildung",
+    "ru": "Образование"
+  },
+  "content": {
+    "en": [
+      [
+        "<p class='semibold'>2021</p><p class='semibold'>Open Academy of Professional Education, Ivanovo</p>",
+        "<h2>CONSTRUCTION SPECIALIST</h2><p>Forensic construction and cost examination of real estate</p>"
+      ],
+      [
+        "<p class='semibold'>2018 — 2019</p><p class='semibold'>G. V. Plekhanov Russian University of Economics, Moscow</p>",
+        "<h2>Commodity Expert</h2><p>Commodity science and examination of goods (by area of application)</p><p>Subject matter of the graduate qualification work: Examination of the range and quality of cell phones</p>"
+      ],
+      [
+        " <p class='semibold'>2005 — 2010</p><p class='semibold'>Kuzbass State Technical University. Т. F. Gorbachev, Kemerovo</p>",
+        "<h2>Engineer-economist</h2><p>Economics and management at the enterprise (in mechanical engineering)</p><p>Subject matter of the graduate qualification work: Improvement of personnel planning in KVSK-branch of OJSC \"Altayvagon\" in crisis conditions.</p>"
+      ]
+    ],
+    "de": [
+      [
+        "<p class='semibold'>2021</p><p class='semibold'>Offene Akademie für Berufliche Bildung, Iwanowo</p>",
+        "<h2>BAUHERREN-EXPERTE</h2><p>Forensische Bau- und Kostenprüfung von Immobilien</p>"
+      ],
+      [
+        "<p class='semibold'>2018 — 2019</p><p class='semibold'>G. V. Plechanow Russische Universität für Wirtschaftswissenschaften, Moskau</p>",
+        "<h2>FACHKAUFMANN</h2><p>Warenkunde und Sachverständigengutachten (nach Anwendungsbereich)</p><p>Thema der Abschlussarbeit: Untersuchung des Angebots und der Qualität von Mobiltelefonen</p>"
+      ],
+      [
+        " <p class='semibold'>2005 — 2010</p><p class='semibold'>Staatliche Technische Universität Gorbatschow, Kemerowo</p>",
+        "<h2>WIRTSCHAFTSINGENIEUR</h2><p>Wirtschaft und Management im Unternehmen (Maschinenbau)</p><p>Thema der Qualifizierungsarbeit: Verbesserung der Personalplanung in der KVSK-Filiale von Altayvagon unter Krisenbedingungen</p>"
+      ]
+    ],
+    "ru": [
+      [
+        "<p class='semibold'>2021</p><p class='semibold'>Открытая академия профессионального образования, Иваново</p>",
+        "<h2>Строитель-эксперт</h2><p>Судебная строительно-техническая и стоимостная экспертиза объектов недвижимости</p>"
+      ],
+      [
+        "<p class='semibold'>2018 — 2019</p><p class='semibold'>Российский экономический университет им. Г.В. Плеханова, Москва</p>",
+        "<h2>Товаровед-эксперт</h2><p>Товароведение и экспертиза товаров (по областям применения)</p><p>Тема выпускной квалификационной работы: Экспертиза ассортимента и качества мобильных телефонов</p>"
+      ],
+      [
+        " <p class='semibold'>2005 — 2010</p><p class='semibold'>Кузбасский государственный технический университет им. Т.Ф. Горбачева, Кемерово</p>",
+        "<h2>Инженер-экономист</h2><p>Экономика и управление на предприятии (в машиностроении)</p><p>Тема выпускной квалификационной работы: Совершенствование кадрового планирования в КВСК-филиал ОАО «Алтайвагон» в условиях кризиса</p>"
+      ]
+    ]
+  }
+}

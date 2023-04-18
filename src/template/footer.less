@@ -1,0 +1,41 @@
+@import "../less/constants.less";
+
+.footer {
+  padding: 16px clamp(16px, 2.08333333333333vw, 40px);
+  width: 100%;
+  background-color: @color_second;
+
+  .for-print({
+    display: none;
+  });
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .links {
+
+    .link {
+      color: @color_first;
+      font-size: 30px;
+      transition: color 0.5s linear;
+
+      &:hover {
+        color: @color_third;
+      }
+    }
+  }
+
+  .copyright {}
+
+  .my-projects {
+
+    .baum {
+      height: 30px;
+      width: 30px;
+    }
+
+  }
+}
+}

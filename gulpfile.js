@@ -38,7 +38,7 @@ function html() {
 
 function styles() {
   return src('./src/index.less')
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(less())
     .pipe(concat('style.min.css'))
     .pipe(autoprefixer({
@@ -46,7 +46,7 @@ function styles() {
       grid: true
     }))
     .pipe(csso())
-    .pipe(sourcemaps.write())
+    // .pipe(sourcemaps.write())
     .pipe(dest('dist'))
     .pipe(sync.stream())
 }
@@ -87,12 +87,11 @@ function serve() {
   })
   
     watch('./src/index.html', html),
-    watch('./src/index.less', styles),
+    watch('./src/**/*.less', styles),
     watch('./src/index.js', scripts),
     watch('./src/assets/**/*', assets),
     
     watch('./src/template/**.html', html),
-    watch('./src/less/**.less', styles),
     watch('./src/js/**.js', scripts),
     
     watch('./webpack.config.js', scripts),

@@ -1,18 +1,25 @@
 @@include("./template/head.html")
-<!-- @@include("./debug/debug.html") -->
-@@include("./template/header.html")
 
-<main class="main">
-  @@include("./template/about.html")
-  <div class="middle">
+<body>
+  @@include("./template/header.html")
 
-    @@include("./template/side-left.html")
+  <main class="main">
 
-    <div class="side-right">
-      @@include("./template/work.html")
-      @@include("./template/education.html")
+    @@include("./template/about.html")
+    <div class="middle">
+      <div class="container">
 
+        @@include("./template/side-left.html")
+
+        <div class="side-right">
+          @@include("./template/projects.html")
+          @@include("./template/work.html")
+          @@include("./template/education.html")
+        </div>
+      </div>
     </div>
-  </div>
-</main>
-@@include("./template/footer.html")
+  </main>
+  @@include("./template/footer.html")
+</body>
+
+</html>
